@@ -1,6 +1,6 @@
-# Pytorch RNN Language Models
+# Pytorch RNN Language Models- Shakespeare's Plays
 
-This repo shows how to train neural language models using [Pytorch example code](https://github.com/pytorch/examples/tree/master/word_language_model).
+This repo shows how to train a multi-layer RNN on a language modeling task. The training script uses spme of the plays of Shakespeare as a dataset. The trained model can then be used by the generate script to generate new text.
 
 # Requirements
 
@@ -14,7 +14,7 @@ This repo shows how to train neural language models using [Pytorch example code]
 
 Clone this repository in the desired place:
 
-    git clone https://github.com/bricksdont/pytorch-rnn-lm
+    git clone https://github.com/nurdanay/pytorch-rnn-lm
     cd pytorch-rnn-lm
 
 Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
@@ -40,3 +40,10 @@ The training process can be interrupted at any time, and the best checkpoint wil
 Generate (sample) some text from a trained model with:
 
     ./scripts/generate.sh
+
+
+# Findings
+
+| **Dropouts** | **Test perplexity** |
+
+
