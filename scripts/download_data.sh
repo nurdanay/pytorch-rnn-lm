@@ -16,7 +16,7 @@ mkdir -p $data/shakes
 
 mkdir -p $data/shakes/raw
 
-wget https://github.com/nurdanay/pytorch-rnn-lm/data/plays.txt
+wget https://github.com/nurdanay/pytorch-rnn-lm/blob/master/data/plays.txt
 mv plays.txt $data/shakes/raw
 
 # preprocess slightly
